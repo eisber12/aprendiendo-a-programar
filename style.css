@@ -1,0 +1,240 @@
+/* variables #div-1, #div-2, .paga, .titulo, .welcome, .parrafo, .comenzar */
+*{
+  
+
+}
+ body{
+  display: flex;
+  font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+ 
+ 
+ }
+ .div1, .div2{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}  
+
+
+.div2{
+  background: #eb2e2ef7;
+}
+
+.div2 div{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+div.comenzar{
+  display: flex;
+  background: white;
+  border-radius: 1em;
+  margin-bottom: 56px;
+  margin-top: 34px;
+  align-items: center;
+ padding: 18px;
+  
+}
+.comenzar-1{
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: dotted;
+  color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comenzar-flecha{
+  height: 40px;
+ 
+}
+.titulo{
+  margin-bottom: 58px;
+  margin-top: 38px;
+}
+.welcome{
+  margin-bottom: 12px;
+  color: rgb(250, 241, 241);
+  font-weight:600
+
+
+}
+.paga{
+  font-size: 18;
+    font-weight: 100;
+  
+  
+}
+.parrafo{
+  font-size: x-large;
+    color: white;
+}
+
+/* #div-padre1, #padre-logo, .logo, .asistencia*/
+
+#body2 {
+  flex-direction: column;
+}
+
+#div-padre1{
+  display: flex;
+    justify-content: space-between;
+}
+.logo{
+  margin-left: 13px
+
+}
+.Asistencia{
+  margin-right: 13px;
+  font-family: rubik, sans-serif;
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 7px;
+    padding-right: 29px;
+    padding-left: 29px;
+    border-color: #968d8d6e;
+    color: #000000;
+    background: white;
+}
+.mano{
+  width: 30px;
+  height: 33px;
+}
+
+
+
+#div-padre2{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+h1{
+      font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff0f11d6;
+}
+
+ 
+#div-padre2 .botones{
+ 
+  cursor: pointer;
+ padding: 10px;
+ margin: 6px;
+ border: none;
+ border-radius: 20%;
+  
+}
+
+
+div .botones bu{
+  flex-direction: column;
+  
+  width: 100%;
+  
+
+  
+}
+
+
+
+span{
+  display:block;
+  
+  width: 34px;
+}
+
+.borra{
+  
+  width: 30px;
+  height: 33px;
+}
+.div-button0{
+  display: flex;
+  
+ 
+ 
+}
+
+div.botones button{
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 6px;
+  border: none;
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+
+  }
+
+  .button-abajo{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+  .borrar-abajo{
+    font-family: rubik, sans-serif;
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 7px;
+    padding-right: 29px;
+    padding-left: 29px;
+    border-color: #968d8d6e;
+    color: #000000;
+    background: white;
+   
+  
+
+  }
+  .empezar-1{
+    font-size: 15px;
+    border-radius: 5px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 59px;
+    padding-left: 59px;
+    border-color: #968d8d6e;
+    color: white;
+    background: #ff0f11d6;
+  }
+ .botones-abajo{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 61px;
+    width: 100%;
+    gap: 62px;
+    
+ }
+ .bloque{
+  display: block;
+  width: 100%;
+  height: 16px;
+  background-color: #7a6c6c12;
+ }
+ .botones{
+ 
+ 
+  
+
+ }
+ /*cursor: pointer;
+ padding: 10px;
+ margin: 6px;
+ border: none;
+ border-radius: 20%;*/
+ z
